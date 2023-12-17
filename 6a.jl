@@ -1,0 +1,5 @@
+include("all.jl")
+r = Robot(animate=true, "6a.sit")
+q = PutmarkersRobot{Robot}(r)
+perimetr!(q)
+sleep(100)
